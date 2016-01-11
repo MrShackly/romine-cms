@@ -42,4 +42,60 @@
       <sv:value>webfile:/freemarker/rominecms/pagenotfound-main.ftl</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="base-footer-menu">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/rominecms/base-footer-menu.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="intro-component">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/rominecms/components/intro.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="std-page">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/rominecms/std-page.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="landing-page">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/rominecms/landing-page.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="std-article">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/rominecms/std-article.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="recent-documents">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/rominecms/components/recent-documents.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="article">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/rominecms/article.ftl</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

@@ -73,7 +73,7 @@
     <filesync.override>false</filesync.override>
     <maven.plugins.filesync.version>1.0.0</maven.plugins.filesync.version>
     <repo.bootstrap>true</repo.bootstrap>
-
+	<freemarker.version>2.3.23</freemarker.version>
   </properties>
 
   <repositories>

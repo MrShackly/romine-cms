@@ -1,7 +1,12 @@
-<'rominecms'='http://www.onehippo.org/rominecms/nt/1.0'>
-<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
 <'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'rominecms'='http://www.onehippo.org/rominecms/nt/1.0'>
 
-[rominecms:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document orderable
+[rominecms:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[rominecms:baseRomineDocument] > hippostd:relaxed, hippotranslation:translated, rominecms:basedocument
+  orderable
 

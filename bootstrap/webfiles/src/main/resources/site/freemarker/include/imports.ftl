@@ -4,3 +4,7 @@
 <#assign fmt=JspTaglibs ["http://java.sun.com/jsp/jstl/fmt"] >
 
 <@hst.defineObjects />
+
+<#import "html-includes.ftl" as html>
+
+<#import "util-includes.ftl" as util>

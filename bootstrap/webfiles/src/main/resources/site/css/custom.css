@@ -1,0 +1,12 @@
+@media only screen and (min-width: 768px){
+	.top-nav-no-header{
+		background-color:rgba(0,0,0,0.5);
+	}
+	.container-fluid.top-nav + .intro-header {
+		background-color:transparent;
+	}
+}
+
+.post-abstract{
+	margin:0;
+}

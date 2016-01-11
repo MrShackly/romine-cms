@@ -31,9 +31,84 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:containercomponent</sv:value>
       </sv:property>
+      <sv:property sv:name="hst:lastmodified" sv:type="Date">
+        <sv:value>2016-01-03T21:09:21.520-05:00</sv:value>
+      </sv:property>
       <sv:property sv:name="hst:xtype" sv:type="String">
         <sv:value>HST.vBox</sv:value>
       </sv:property>
+      <sv:node sv:name="recent-documents">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containeritemcomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>org.romine.components.LatestContentComponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>pickerPath</sv:value>
+          <sv:value>howMany</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value>articles/test</sv:value>
+          <sv:value>5</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>recent-documents</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.Item</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="seo">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containeritemcomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:componentclassname" sv:type="String">
+          <sv:value>org.onehippo.forge.seo.support.SEOHelperComponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:iconpath" sv:type="String">
+          <sv:value>images/essentials/catalog-component-icons/seo.png</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:label" sv:type="String">
+          <sv:value>SEO</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+          <sv:value>menu-name</sv:value>
+          <sv:value>site-dc-copyright-link</sv:value>
+          <sv:value>template-page-title</sv:value>
+          <sv:value>dc-language</sv:value>
+          <sv:value>document-title-bean-props</sv:value>
+          <sv:value>dc-schema-link</sv:value>
+          <sv:value>site-title-in-template</sv:value>
+          <sv:value>menu-item-allow-expanded</sv:value>
+          <sv:value>site-title</sv:value>
+          <sv:value>default-meta-description</sv:value>
+          <sv:value>document-description-bean-props</sv:value>
+          <sv:value>dc-terms-link</sv:value>
+          <sv:value>enable-dc-language</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+          <sv:value>main</sv:value>
+          <sv:value/>
+          <sv:value>%(siteTitle) - %(menuItem) - %(pageTitle) : %(keywords)</sv:value>
+          <sv:value/>
+          <sv:value>title</sv:value>
+          <sv:value>http://purl.org/dc/elements/1.1/</sv:value>
+          <sv:value>on</sv:value>
+          <sv:value>off</sv:value>
+          <sv:value/>
+          <sv:value/>
+          <sv:value>description</sv:value>
+          <sv:value>http://purl.org/dc/terms/</sv:value>
+          <sv:value/>
+        </sv:property>
+        <sv:property sv:name="hst:template" sv:type="String">
+          <sv:value>seo</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.Item</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
   </sv:node>
   <sv:node sv:name="pagenotfound">
